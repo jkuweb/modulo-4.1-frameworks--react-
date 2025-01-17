@@ -1,0 +1,8 @@
+{
+  node_modules
+  dist
+	commitlint.config.js
+	eslint.config.js
+	.vscode-test/
+	.vscode/
+}

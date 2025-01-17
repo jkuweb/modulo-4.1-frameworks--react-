@@ -1,0 +1,40 @@
+$bg-gray-900: hsl(220.91deg 39.29% 10.98%)	;
+
+
+body {
+	background-color: $bg-gray-900;
+}
+
+.app-container {
+	display: grid;
+	grid-template-rows: 14rem 1fr;
+	grid-row-gap: 1rem;
+}
+
+.app-filter {
+	display: grid;
+	grid-template-rows: 6rem 5rem;
+	place-items: center;
+	&__title {
+		color: #ccc;
+	}
+	&__form {
+		display: flex;
+		justify-content: center;
+		& > button {
+			margin-left: 1rem;
+		}
+		&__input {
+			min-width: 10rem;
+			width: 70%;
+		}
+	}
+
+}
+
+
+
+
+
+
+

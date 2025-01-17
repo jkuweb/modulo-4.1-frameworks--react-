@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"moduleResolution": "Node",
+		"isolatedModules": true,
+		"lib": [
+			"ESNext",
+			"DOM"
+		],
+		"module": "ESNext",
+		"strict": false,
+		"noEmit": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"sourceMap": true,
+		"jsx": "react-jsx",
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"typeRoots": [
+			"vite-env.d.ts",
+			"./src/declaration.d.ts"
+		],
+		"baseUrl": "src",
+		"paths": {
+			"@/*": [
+				"*"
+			]
+		}
+	},
+	"include": [
+		"vite-env.d.ts",
+		"src",
+		"./src/declaration.d.ts",
+		"types"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
